@@ -1,0 +1,83 @@
+body {
+    /* background: rgb(96 165 250); */
+    background: url(images/10.jpg);
+    background-position: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    ::selection {
+        color: yellow;
+    }   
+}
+
+.container {
+    /* justify-content: right; */
+    margin: 25px 25px;
+    border-radius: 10px;
+    /* background: rgb(96 165 250); */
+    display: flex;
+    width: 950;
+}
+
+.left-container {
+    /* justify-content: left; */
+    margin: 25px 20px 10px 30px;
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgb(29, 27, 27, 0.5);
+    overflow: hidden;
+
+
+    /* Glass-Card Effect */
+    backdrop-filter: blur(10px) saturate(150%);
+    -webkit-backdrop-filter: blur(10px) saturate(150%);
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.heading {
+    margin: 15px 50px 15px 50px;
+    position: absolute;
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 85%;
+    height: 40%;
+
+    h1 {
+        position: absolute;
+        text-align: center;
+        color: rgb(3 105 161);
+    }
+}
+
+.continue-btn {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin: 300px 80px 60px 80px;
+    width: 80%;
+    height: 45%;
+    
+
+    button {
+        padding: 10px 13px 12px 13px;
+        margin-bottom: 14px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        /* background: rgb(251 191 36); */
+        cursor: pointer;
+        font-size: 15px;
+        text-transform: capitalize;
+        box-shadow: 0px 0px 20px rgb(25, 25, 25, 0.8);
+        border: none;
+
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
