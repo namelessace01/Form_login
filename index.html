@@ -39,44 +39,44 @@
                 </button>
             </div>
         </div>
-
-        <div>
-            <form>
+        
+        <div class="form-container">
+            <form id="signup_form" action="process.php" method="post" onsubmit="event.preventDefault(); submit_form();">
                 <div>
-                    <h2>
+                    <h2 class="form-head" style="text-align: center; color: rgb(3 105 161);">
                         Create Account
                     </h2>                        
                 </div>
 
-                <div>
-                    <input>
-                    <input>
+                <div class="names">
+                    <input type="text" placeholder="First Name" name="firstName" id="firstName" >
+                    <input type="text" placeholder="Last Name" name="lastName" id="lastName" >
                 </div>
 
                 <div>
-                    <input>
+                    <input type="text" placeholder="Username" name="username" id="username" >
                 </div>
 
                 <div>
-                    <input>
+                    <input type="email" placeholder="Email" name="email" id="email" >
                 </div>
 
                 <div>
-                    <input>
+                    <input type="password" placeholder="Password" name="password" id="password" >
                 </div>
                 <label>
                     Minimum length of 8 characters
                 </label><br>
 
                 <div>
-                    <button>
+                    <button type="submit" class="form-btn">
                         Sign Up
                     </button>
                 </div><br>
 
-                <div>
+                <div style="text-align: center; color: rgb(3 105 161);">
                     Already have an account?
-                    <a href="login.html"> Login</a>
+                    <a href="login.html" style="text-decoration: none; color: #FFDD50;"> Login</a>
                 </div><br><br>
 
                 <footer>
