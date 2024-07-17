@@ -223,3 +223,8 @@ footer {
         margin: 4px;
     }
 }
+
+/* Handling responsiveness for the signup page */
+@media screen {
+    
+}
